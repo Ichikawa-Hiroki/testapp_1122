@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  display: inline-block;
+  padding-left: 20px;
+  background: linear-gradient(90deg, #4158D0, #C850C0 30%, #FFCC70);
+  background: -webkit-linear-gradient(0deg, #4158D0, #C850C0 30%, #FFCC70);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-weight: 800;
+  padding-left: 20px;
+}
+
+body{
+  background-color: #87ceeb;
+}
+
+select{
+  background-color: #87ceeb;
+  color: #000;
+  font-weight: 700;
+  margin-left: 20px;
+}
